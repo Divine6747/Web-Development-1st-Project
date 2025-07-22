@@ -1,0 +1,777 @@
+body{
+   background-color: #ffff;
+   margin: 0%;
+   padding: 0%;
+}
+/***HOME CSS***/
+.navigation{
+   width: 100%;
+   position:absolute;
+   padding-top: 0.9375em;
+   padding-bottom: 0.9375em;
+   z-index: -1;
+   top: 0%;
+   background-color: rgba(0,0,0,0.3);
+   left: 0%;
+}
+
+.clear{
+   clear: both;
+}
+.video-holder {
+   z-index: -100;
+   width:100%;
+   height: 80vh;
+   overflow:hidden;
+   position:absolute;
+   top:0;
+   left:0;
+ }
+   
+.home-video{
+   width:100%;
+}
+
+.full-nav img{
+   width: 6.25em;
+   height:6.25em;
+}
+
+.nav{
+   float: left;
+   padding-left: 6%;
+   padding-right: 6%;
+}
+.nav a{
+   padding-left: 15%;
+}
+.nav-align{
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.full-nav ul{
+   list-style: none;
+}
+.full-nav a{
+   text-decoration: none;
+   font-size: 1.25em;
+   color: #fff;
+}
+.full-nav li{
+   display: inline-block;
+}
+
+.link{
+   text-transform: uppercase;
+   margin-left: 10%;
+   
+}
+.link a{
+   padding-bottom: 8%;
+}
+.link a:hover{
+   border-bottom: 0.1875em solid #7E5948; 
+   border-width: 0.1875em;
+   border-top: 0em;
+}
+.welcome{
+   margin-top: 43%;
+}
+.welcome h1{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+   font-size:  1.5625em;
+}
+.welcome h3{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+}
+.welcome-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #7E5948;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+.main-section{
+   width: 80%;
+   text-align: center;
+   padding-top: 0.015em;
+   margin: auto;
+}
+.main-header h2{
+   font-weight: 100;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 1.25em;
+}
+.jewellery-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #7E5948;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+.main-images{  
+   margin-top: 3.375em;  
+   display: flex;  
+}  
+
+.main-images img{
+   border-radius: 0.625em;
+   margin-bottom: 5%;
+   width: 80%; 
+   border: 5px solid #7E5948;
+   padding:5px;
+   line-height: 2.7;
+}
+.main-images img{
+   border-radius: 0.625em;
+   
+}
+
+.images{  
+   flex: 33%; 
+   padding: 0.625em; 
+   margin: 1.25em;  
+   border-radius: 0.625em;  
+}
+
+.main-images.clear{
+   clear: both;
+}
+.main-images h3{
+   font-size: 1.25em;
+   text-transform: uppercase;
+  
+}
+   
+.our-events{
+   border:15px solid #25395E;
+   width: 60%;
+   margin: auto;
+   background-color: rgb(250, 246, 241);
+   color: #000;padding: 2%;
+}
+.All-events h2{
+   text-align: center;
+   text-transform: uppercase;
+   color: #11499e;
+}
+.All-events p{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+   padding: 2%;
+}
+.event-border{
+   height: 0.125em;
+   width: 4.125em;
+   background-color: #25395E;
+   margin:auto;
+   border-radius:  0.125em;
+   
+}
+
+.our-events p{
+   font-size:25px;
+   font-weight:bold;
+   text-align: center;
+}
+
+td,th,tr{
+   border:1.5px solid #ef0c58;
+   border-radius: 5px;
+   text-align:center;
+   font-size:20px;
+   margin: auto;
+   width: 10%;
+   color: #fff;
+}
+#table-spacing{
+   border-collapse: separate;
+   border-spacing: 15px 50px;
+}
+.tables{
+   flex-basis: 70%;
+   background: #25395E;
+   border-radius: 10px;
+   padding: 30px 30px 50px; 
+   transition: 0.5ms;
+   transition: box-shadow 0.3s;   
+   box-sizing: border-box;
+   margin: auto;
+   width: 60%;
+   margin-bottom: 10%;
+   text-transform: capitalize;
+}
+
+.look{
+   color: #fff;
+   text-align: center;
+   font-size: 22px;
+
+}
+.table-border{
+   height: 0.125em;
+   width: 4.125em;
+   background-color: #fff;
+   margin:auto;
+   border-radius:  0.125em;
+   
+}
+/*https://www.w3schools.com/cssref/tryit.php?filename=trycss_border-spacing*/
+#table-spacing {
+   border-collapse: separate;
+   border-spacing: 10px;
+ }
+.visting-hours h2{
+   text-align: center;
+   text-transform: capitalize;
+   color: #11499e;
+   margin-top: 2%;
+}
+.visit-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #11499e;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+   margin-bottom: 2%;
+}
+/***HOME CSS END***/
+/***INDEX CSS***/
+.index-navigation{
+   width: 100%;
+   position:absolute;
+   padding-top: 0.9375em;
+   padding-bottom: 0.9375em;
+   z-index: -1;
+   top: 0%;
+   background-color: rgba(0,0,0,0.3);
+   left: 0%;
+}
+/*https://www.youtube.com/watch?v=05ZHUuQVvJM&t=1s 20/12/2022*/
+.index-video-holder {
+   z-index: -100;
+   width:100%;
+   height: 80vh;
+   overflow:hidden;/*Controls how the video flows from the bottom*/
+   position:absolute;/*This puts the nav bar infront of the video*/
+   top:0;
+   left:0;
+}
+   
+.index-home-video{
+   width:100%;
+}
+
+#index-welcome-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #552d6f;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+.index-link{
+   text-transform: uppercase;
+   margin-left: 10%;
+   
+}
+.index-link a{
+   padding-bottom: 8%;
+}
+.index-link a:hover{
+   border-bottom: 0.1875em solid #552d6f;
+   border-width: 0.1875em;
+   border-top: 0em;
+}
+.dyesebel{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.dyesebel h2{
+   font-size: 2em;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.dyesebel p{
+   line-height: 20px;
+   color: #000;
+   font-size: 17px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.box-holders{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+.box-holders .box{
+   flex-basis: 31%;
+   background: #E3D7D2;
+   border-radius: 10px;
+   margin-bottom: 4%;
+   padding: 20px 12px; 
+   transition: 0.5ms;
+   transition: box-shadow 0.3s;   
+   box-sizing: border-box;
+   
+}
+
+.box h3{
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.box:hover{
+  
+   box-shadow: 0 0 100px 0px rgba(61, 61, 61, 0.2);
+
+}
+/*https://www.w3schools.com/css/css3_shadows_box.asp 20/12/2022*/
+/*Contact Us*/
+.contact-navigation{
+   width: 100%;
+   position:absolute;
+   padding-top: 0.9375em;
+   padding-bottom: 0.9375em;
+   z-index: -1;
+   top: 0%;
+   background-color: rgba(0,0,0,0.3);
+   left: 0%;
+}
+/*https://www.youtube.com/watch?v=05ZHUuQVvJM&t=1s*/
+.contact-video-holder {
+   z-index: -100;
+   width:100%;
+   height: 80vh;
+   overflow:hidden;/*Controls how the video flows from the bottom*/
+   position:absolute;/*This puts the nav bar infront of the video*/
+   top:0;
+   left:0;
+}
+   
+.contact-home-video{
+   width:100%;
+}
+
+#contact-welcome-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #552d6f;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+.contact-link{
+   text-transform: uppercase;
+   margin-left: 10%;
+   
+}
+.contact-link a{
+   padding-bottom: 8%;
+}
+.contact-link a:hover{
+   border-bottom: 0.1875em solid #20adef;
+   border-width: 0.1875em;
+   border-top: 0em;
+}
+.contact-nav{
+   float: left;
+   padding-left: 6%;
+   padding-right: 6%;
+}
+.contact-nav a{
+   padding-left: 15%;
+}
+.contact-nav-align{
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.contact-full-nav ul{
+   list-style: none;
+}
+.contact-full-nav a{
+   text-decoration: none;
+   font-size: 1.25em;
+   color: #fff;
+}
+.contact-full-nav li{
+   display: inline-block;
+}
+.contact-full-nav img{
+   width: 6.25em;
+   height:6.25em;
+}
+.contact-welcome{
+   margin-top: 43%;
+}
+.contact-welcome h1{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+   font-size:  1.5625em;
+}
+.contact-welcome h3{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+}
+
+.contact-welcome-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #11499e;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+
+
+.form{
+   width: 80%;
+   margin: auto;
+   
+}
+.form h1{
+   font-size: 2.25em;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.form p{
+   line-height: 20px;
+   color: #000;
+   font-size: 17px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.form-box-holders{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+.form-box-holders .form-box{
+   flex-basis: 70%;
+   background: #11499e;
+   border-radius: 10px;
+   padding: 20px 12px; 
+   transition: 0.5ms;
+   transition: box-shadow 0.3s;   
+   box-sizing: border-box;
+   margin: auto;
+   width: 60%;
+   margin-bottom: 10%;
+}
+
+.form-box h3{
+   font-weight: 100;
+   text-transform: uppercase;
+   font-size: 25px;
+   color: #fff;
+   text-align: center;
+}
+.form-box:hover{
+   box-shadow: 0 0 100px 0px rgba(61, 61, 61, 0.2);
+}
+.form-box input[type=text],select,textarea{
+   width: 60%;
+   padding: 10px 15px;
+   margin:8px 0;
+   border: #20adef solid 3px;
+   border-radius: 5px;
+}
+.form-box #position{
+   padding-left: 8%;
+
+}
+input[type=radio] {
+   color: #fff;
+}
+input[type=submit],#reset {
+   width: 15%;
+   background-color: #20adef;
+   color: white;
+   padding:10px 20px;
+   margin-top: 2%;
+   border: #fff 2px solid;
+   border-radius: 4px;
+   align-self: center;
+   margin-left: auto;
+   cursor: pointer;
+   margin-right: auto;
+}
+#reset:hover {
+   background-color: #000;
+}
+.size{
+  font-size: 18px;
+  color: #fff;
+}
+
+
+/**About Us Code**/
+.about-video-holder {
+   z-index: -100;
+   width:100%;
+   height: 80vh;
+   overflow:hidden;/*Controls how the video flows from the bottom*/
+   position:absolute;/*This puts the nav bar infront of the video*/
+   top:0;
+   left:0;
+}
+   
+.about-home-video{
+   width:100%;
+}
+.about-welcome{
+   margin-top: 43%;
+}
+.about-welcome h1{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+   font-size:  1.5625em;
+}
+.about-welcome h3{
+   text-align: center;
+   font-weight: 100;
+   text-transform: uppercase;
+}
+.about-welcome-border{
+   height: 0.125em;
+   width: 3.125em;
+   background-color: #7E5948;
+   margin: 0.625em auto;
+   border-radius:  0.125em;
+}
+.about{
+   width: 70%;
+   margin: auto;
+}
+
+.about img{
+   width:40%;
+   margin-left: 15%;
+   margin-right: 15%;
+   border-radius: 15px;
+   width: 600px;
+   height: 400px;
+}
+.clear{
+   clear: both;
+}
+.about p{
+   margin-top: 5%;
+  text-align: center;
+  text-align: justify;
+}
+/**About Us Code Ends**/
+
+/*Product Section*/
+.products h3, h2{
+   padding-top: 20px;
+   font-size: 25px;
+   text-align: center;
+   
+
+}
+.products{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.contents{
+   width: 30%;
+   margin:15px;
+   box-sizing: border-box;
+   float: left;
+   text-align: center;
+   border-radius: 20px;
+   cursor: pointer;
+   padding-top: 10px;
+   transition: .4s;
+   background: #597C8C;
+   
+}
+
+.contents img{
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   margin: 20px auto;
+   display: block;
+   border-radius: 5px;
+}
+
+.contents p{
+   font-size: 20px;
+}
+
+.contents button{
+   color: #000;
+   cursor: pointer;
+   background-color:#ffffff;
+   border-radius: 5px;
+   margin: 20px;
+   padding: 5px 20px 5px 20px;
+   font-size: 20px;
+   border: 2px #000 solid;
+
+}
+.contents button:hover{
+   color: #fff;
+   background-color: #ef0c58;
+   transform: 1s ease;
+   
+}
+.contents h6{
+   font-size: large;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}
+.stars .fa-solid{
+   color: #FFA41C;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-top: -30px;
+}
+
+.stars .fa-regular{
+   color: #FFA41C;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-top: -30px;
+}
+.clear{
+   clear: both;
+}
+/*Product Section End*/
+
+/*Site Map Footer*/
+
+footer *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+   
+}
+
+.footer-holder{
+	max-width: 1110px;
+	margin:auto;
+}
+.footer-holder h2:not(:last-child){
+	margin-top: -20px;
+   color: #ef0c58;
+   margin-bottom: 35px;/*This put a margin underneath the li*/
+   text-align: center;
+   font-weight: 100;
+   font-size: 2em;
+}
+
+.footer-holder h2:hover{
+   color: #fff;
+   transition: all 0.6s;
+}
+.footer-rows{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-control ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgba(37,57,94);
+   padding: 40px 0;
+}
+.footer-control{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-control h4{
+	font-size: 19px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-control ul li:not(:last-child){
+	margin-bottom: 10px;/*This put a margin underneath the li*/
+}
+/*https://www.w3schools.com/cssref/sel_before.php*23/12/21*/
+.footer-control h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #ef0c58;
+   border-radius: 2px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 30px;
+}
+.footer-control ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 200;
+	display: block;
+   /*This made the transition pleasing to the eye*/
+	transition: all 0.3s ease;/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_icon_bar_v*23/12/21*/
+}
+
+.footer-control .social-icons a{
+	display: inline-block;
+   transition: all 0.5s ease;
+   background-color: rgba(19,26,34,0.2);
+	width: 40px;
+   height: 40px;
+   margin-top: 0px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+	margin-left: 0px;
+	text-align: center;
+   border-radius: 50%;
+	line-height: 40px;
+	color: #ffffff;
+	
+}
+.footer-control ul li a:hover{
+   padding-left: 10px;
+	color: rgb(34, 188, 131);
+	
+}
+.footer-control .social-icons a:hover{
+	color: #25395E;
+	background-color: #ffffff;
+}
+/*Site Map Footer*/
+
+/**1. All Photos used were taken from pexels.com 06/12/2022
+[Home Earrings Photo: https://www.pexels.com/pt-br/foto/acessorio-brincos-caro-maos-7618570/ visited: 07/12/2022 Posted: 23/04/2021 Author: The Glorious Studio]
+[Home Ring Photo: https://www.pexels.com/photo/a-person-wearing-expensive-diamond-ring-10799227/ visited: 07/12/2022 Posted: 11/01/2022 Author: The Glorious Studio]
+[Home Bracelet Photo: https://www.pexels.com/photo/person-holding-a-pearl-bracelet-9421332/ visited: 07/12/2022 Posted: 02/09/2021 Author: cottonbro studio]
+
+***2. All videos were Used were taken from pexels.com
+[index video: https://www.pexels.com/video/close-up-view-of-diamonds-5106444/ visited: 19/12/2022 Posted: 23/09/2020 Author: Riki Risnandar]
+[home video:  https://www.pexels.com/video/close-up-view-of-diamonds-5106444/ visited: 24/11/2022 Posted: 31/07/2021 Author: whiterecord]
+[product video: https://www.pexels.com/video/a-woman-opening-a-heart-shaped-jewelry-box-6637344/ visited: 23/12/2022 Posted: 30/09/2020 Author: Karolina Grabowska]
+[contact us video: https://www.pexels.com/video/a-beautiful-diamond-gem-8971886/ visited: 20/11/2022 Posted: 31/07/2021 Author: whiterecord]
+[about us video: https://www.pexels.com/video/businesswoman-handing-out-documents-to-her-colleagues-5311246/ visited: 21/11/2022 Posted: 24/09/2022 Author: olia danilevich]
+
+***3. My logo was design by me on https://logo-maker.freelogodesign.org/ 01/12/2021*/ 
